@@ -84,26 +84,26 @@ textarea {
 
 input[type="password"]:focus {
   border: 0;
-  -webkit-box-shadow: 0 0 0 0.1rem #f44336;
-  box-shadow: 0 0 0 0.1rem #f44336;
+  -webkit-box-shadow: 0 0 0 1px #f44336;
+  box-shadow: 0 0 0 1px #f44336;
 }
 
 input[type="text"]:focus {
   border: 0;
-  -webkit-box-shadow: 0 0 0 0.1rem #f44336;
-  box-shadow: 0 0 0 0.1rem #f44336;
+  -webkit-box-shadow: 0 0 0 1px #f44336;
+  box-shadow: 0 0 0 1px #f44336;
 }
 
 input[type="email"]:focus {
   border: 0;
-  -webkit-box-shadow: 0 0 0 0.1rem #f44336;
-  box-shadow: 0 0 0 0.1rem #f44336;
+  -webkit-box-shadow: 0 0 0 1px #f44336;
+  box-shadow: 0 0 0 1px #f44336;
 }
 
 textarea:focus {
   border: 0;
-  -webkit-box-shadow: 0 0 0 0.1rem #f44336;
-  box-shadow: 0 0 0 0.1rem #f44336;
+  -webkit-box-shadow: 0 0 0 1px #f44336;
+  box-shadow: 0 0 0 1px #f44336;
 }
 
 .container {
