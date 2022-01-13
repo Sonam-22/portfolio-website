@@ -67,6 +67,7 @@ ul {
 
 input,
 textarea {
+  appearance: none;
   border-radius: 10px;
   min-height: 50px;
   border: 1px solid var(--body-color);
