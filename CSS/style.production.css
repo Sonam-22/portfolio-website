@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -156,7 +156,7 @@ main {
   padding: 20px;
   height: 12%;
   font-size: 18px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .page-header img {
@@ -249,7 +249,7 @@ button {
   display: inline-block;
   font-family: inherit;
   background-color: #c62828;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   padding: 10px;
   border-radius: 10px;
@@ -264,7 +264,7 @@ button {
   display: inline-block;
   font-family: inherit;
   background-color: #c62828;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   padding: 10px;
   border-radius: 10px;
@@ -279,13 +279,16 @@ button {
   width: 8vw;
 }
 
-button:hover, button:focus, .button:hover, .button:focus {
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
 
 a.button-download {
-  color: #ffffff;
+  color: #fff;
 }
 
 .navigation-list__item {
@@ -347,7 +350,7 @@ a.button-download {
   }
 
   .grid__item {
-    background-color: #ffffff;
+    background-color: #fff;
     width: auto;
     min-height: auto;
     margin: 0;
@@ -378,7 +381,7 @@ a.button-download {
   width: 100%;
   text-align: center;
   background-color: #2f4858;
-  color: #ffffff;
+  color: #fff;
   padding-bottom: 15px;
 }
 
@@ -386,9 +389,9 @@ a.button-download {
   height: 30px;
   border-radius: 10px;
   width: 30px;
-  -webkit-transition: all ease-in .25s;
-  -o-transition: all ease-in .25s;
-  transition: all ease-in .25s;
+  -webkit-transition: all ease-in 0.25s;
+  -o-transition: all ease-in 0.25s;
+  transition: all ease-in 0.25s;
 }
 
 .footer-img:hover {
@@ -432,13 +435,13 @@ th {
 th {
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
 }
 
 td {
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
 }
 
 tbody tr:hover {
@@ -572,7 +575,8 @@ tbody tr:hover {
   resize: vertical;
 }
 
-#contact-form input, textarea {
+#contact-form input,
+textarea {
   width: 100%;
   margin-bottom: 10px;
 }
@@ -585,7 +589,9 @@ tbody tr:hover {
   border-radius: 100px;
 }
 
-.contact-address, .contact-phone, .contact-email {
+.contact-address,
+.contact-phone,
+.contact-email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -611,7 +617,8 @@ tbody tr:hover {
     flex-direction: column;
   }
 
-  .grid, .contact-container {
+  .grid,
+  .contact-container {
     margin: 0;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -663,7 +670,9 @@ tbody tr:hover {
     align-items: flex-start;
   }
 
-  .work-container, .about, .contact {
+  .work-container,
+  .about,
+  .contact {
     width: 100%;
   }
 
@@ -687,7 +696,8 @@ tbody tr:hover {
     justify-content: center;
   }
 
-  .grid, .contact-container {
+  .grid,
+  .contact-container {
     grid-gap: 10px;
   }
 

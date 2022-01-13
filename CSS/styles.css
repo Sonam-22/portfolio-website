@@ -6,14 +6,14 @@
   --primary-color: #c62828;
   --primary-color-lighter: #f44336;
   --primary-color-darker: #ba000d;
-  --secondary-color: #ffffff;
+  --secondary-color: #fff;
   --secondary-color-darker: #f2f2f2;
   --body-color: #212121;
   --tertiary-color: #2f4858;
-  --tertiary-text-color: #ffffff;
-  --primary-text-color: #ffffff;
+  --tertiary-text-color: #fff;
+  --primary-text-color: #fff;
   --table-hover-color: #f2f2f2;
-  --table-borders-color: #dddddd;
+  --table-borders-color: #ddd;
   --font-weight-700: 700;
 }
 
@@ -45,11 +45,13 @@ h3 {
   font-weight: var(--font-weight-700);
 }
 
-a, a:visited {
+a,
+a:visited {
   color: var(--primary-color);
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   color: var(--primary-color-lighter);
 }
@@ -63,7 +65,8 @@ ul {
   margin-block-end: 0;
 }
 
-input, textarea {
+input,
+textarea {
   border-radius: 10px;
   min-height: 50px;
   border: 1px solid var(--body-color);
@@ -165,7 +168,8 @@ main {
   }
 }
 
-button, .button {
+button,
+.button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -183,7 +187,10 @@ button, .button {
   width: 8vw;
 }
 
-button:hover, button:focus, .button:hover, .button:focus {
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -274,7 +281,7 @@ a.button-download {
   height: 30px;
   border-radius: 10px;
   width: 30px;
-  transition: all ease-in .25s;
+  transition: all ease-in 0.25s;
 }
 
 .footer-img:hover {
@@ -311,7 +318,8 @@ th {
   color: var(--primary-color);
 }
 
-th, td {
+th,
+td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid var(--table-borders-color);
@@ -400,7 +408,8 @@ tbody tr:hover {
   resize: vertical;
 }
 
-#contact-form input, textarea {
+#contact-form input,
+textarea {
   width: 100%;
   margin-bottom: 10px;
 }
@@ -413,7 +422,9 @@ tbody tr:hover {
   border-radius: 100px;
 }
 
-.contact-address, .contact-phone, .contact-email {
+.contact-address,
+.contact-phone,
+.contact-email {
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
@@ -432,7 +443,8 @@ tbody tr:hover {
     flex-direction: column;
   }
 
-  .grid, .contact-container {
+  .grid,
+  .contact-container {
     margin: 0;
     grid-template-columns: 1fr;
   }
@@ -477,7 +489,9 @@ tbody tr:hover {
     align-items: flex-start;
   }
 
-  .work-container, .about, .contact {
+  .work-container,
+  .about,
+  .contact {
     width: 100%;
   }
 
@@ -493,7 +507,8 @@ tbody tr:hover {
     justify-content: center;
   }
 
-  .grid, .contact-container {
+  .grid,
+  .contact-container {
     grid-gap: 10px;
   }
 
