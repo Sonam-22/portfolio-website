@@ -223,6 +223,9 @@ a.button-download {
 .profile__portrait {
   float: left;
   width: 300px;
+  vertical-align: middle;
+  object-fit: cover;
+  object-position: center;
   height: 300px;
   border-radius: 50%;
 }
@@ -278,11 +281,25 @@ a.button-download {
   padding-bottom: 15px;
 }
 
+.badge {
+  display: inline-block;
+  padding: 5px;
+  line-height: 1;
+  background-color: var(--primary-color-darker);
+  color: #ffffff;
+  text-align: center;
+  margin-right: 5px;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 20px;
+}
+
 .footer-img {
   height: 30px;
   border-radius: 10px;
   width: 30px;
   transition: all ease-in 0.25s;
+  margin: 0 8px;
 }
 
 .footer-img:hover {
@@ -393,11 +410,11 @@ tbody tr:hover {
 }
 
 .contact-container {
-  display: grid;
+  display: flex;
   width: 80%;
+  justify-content: center;
   margin: 0 auto;
   padding: 16px;
-  grid-template-columns: 1fr 1fr;
 }
 
 .contact-form-container {

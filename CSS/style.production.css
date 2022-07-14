@@ -334,6 +334,9 @@ a.button-download {
 .profile__portrait {
   float: left;
   width: 300px;
+  vertical-align: middle;
+  object-fit: cover;
+  object-position: center;
   height: 300px;
   border-radius: 50%;
 }
@@ -380,6 +383,19 @@ a.button-download {
   }
 }
 
+.badge {
+  display: inline-block;
+  padding: 5px;
+  line-height: 1;
+  background-color: #ba000d;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
 /* FOOTER */
 .page-footer {
   clear: both;
@@ -403,6 +419,7 @@ a.button-download {
   height: 30px;
   border-radius: 10px;
   width: 30px;
+  margin: 0 8px;
   -webkit-transition: all ease-in 0.25s;
   -o-transition: all ease-in 0.25s;
   transition: all ease-in 0.25s;
@@ -569,13 +586,11 @@ tbody tr:hover {
 }
 
 .contact-container {
-  display: -ms-grid;
-  display: grid;
+  display: flex;
   width: 80%;
+  justify-content: center;
   margin: 0 auto;
   padding: 16px;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
 }
 
 .contact-form-container {
